@@ -14,7 +14,7 @@ public class SearchGlue {
 	
     public static void main(String[] args) {
     	
-    	searchGlueByDatabase("AKIAUTMDBSI2O7BHDGVA","O6wh3zTJHAC3OebA/SLRRzyNm9QY4rpOCj7H6v4M", "us-east-1", "datacatalogdb");
+    	searchGlueByDatabase("<AWSAccessKey>","<AWSSecretKey>", "us-east-1", "datacatalogdb");
     }
     
     public static GlueClient init (String awsAccessKey, String awsSecretKey, String inputRegion) {

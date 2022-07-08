@@ -4,7 +4,7 @@
 
   <groupId>com.mulesoft</groupId>
   <artifactId>AWSLakeFormationClient</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
 
   <name>AWSLakeFormationClient</name>

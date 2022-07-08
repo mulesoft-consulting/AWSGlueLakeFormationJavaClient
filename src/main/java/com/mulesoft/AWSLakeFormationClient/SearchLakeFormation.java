@@ -22,8 +22,8 @@ public class SearchLakeFormation {
 
     public static void main(String[] args) {
 
-    	searchLakeFormationDatabaseByLFTags("AKIAUTMDBSI2O7BHDGVA","O6wh3zTJHAC3OebA/SLRRzyNm9QY4rpOCj7H6v4M", "us-east-1", "ailment-field", "true");
-    	searchLakeFormationTablesByLFTags("AKIAUTMDBSI2O7BHDGVA","O6wh3zTJHAC3OebA/SLRRzyNm9QY4rpOCj7H6v4M", "us-east-1", "ailment-field", "true");
+    	searchLakeFormationDatabaseByLFTags("<AWSAccessKey>","<AWSSecretKey>", "us-east-1", "ailment-field", "true");
+    	searchLakeFormationTablesByLFTags("<AWSAccessKey>","<AWSSecretKey>", "us-east-1", "ailment-field", "true");
     }
 
     public static LakeFormationClient init (String awsAccessKey, String awsSecretKey, String inputRegion) {
